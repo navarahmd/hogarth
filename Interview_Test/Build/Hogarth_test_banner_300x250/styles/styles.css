@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* CSS Document Common Elements */
+
+body {
+    position: absolute;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+    background-color: transparent;
+    /* below improves consistancey of font rendering across browsers */
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    /* below stops FireFox rendering copy too heavily */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Fix to stop Mobile Safari automatically scaling text - http://bit.ly/1mumu5F */
+
+@media screen and (max-device-width: 480px) {
+    body {
+        -webkit-text-size-adjust: none;
+    }
+}
+
+#container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    display: block;
+    transform: rotate(-0.0000000001deg);
+    -webkit-transform: rotate(-0.0000000001deg);
+}
+
+.abs {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#background {
+    background: #FFFFFF;
+}
+
+.replay-btn {
+    position: absolute;
+    z-index: 9;
+    left: 5px;
+    top: 5px;
+    display: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
