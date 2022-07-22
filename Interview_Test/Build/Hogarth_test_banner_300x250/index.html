@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Hogarth</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -10,11 +11,12 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
 </head>
+
 <body>
     <div id="container">
-        <button id="btn" class="replay-btn">
-                <img src="images/btn_replay_x2.png" />
-            </button>
+        <button id="btn" onclick="buildTimeline1()" class="replay-btn">
+            <img src="images/btn_replay_x2.png" />
+        </button>
         <a href="javascript:window.open(window.clickTag, '_blank')">
 
             <div id="keyline" class="abs full"></div>
@@ -22,25 +24,25 @@
             <div id="exit-btn" class="abs full"></div>
 
             <!-- image -->
-            
-            
-            <img id="img-bg" class="full abs"  src="images/background_300x250_x2.jpg" />
-            
+
+
+            <img id="img-bg" class="full abs" src="images/background_300x250_x2.jpg" />
+
 
             <!-- logo -->
-            <img id="logo-hogarth" class="full abs"  src="images/logo_hogarth_300x250_x2.png" />
+            <img id="logo-hogarth" class="full abs" src="images/logo_hogarth_300x250_x2.png" />
 
             <!-- copy -->
-            <img id="copy-frame01" class="full abs hidden"  src="images/copy_frame01_300x250_x2.png" />
-            <img id="copy-frame02" class="full abs hidden"  src="images/copy_frame02_300x250_x2.png" />
-            <img id="copy-frame03" class="full abs hidden"  src="images/copy_frame03_300x250_x2.png" />
-            <img id="copy-frame04" class="full abs hidden"  src="images/copy_frame04_300x250_x2.png" />
-            <img id="copy-frame05" class="full abs hidden"  src="images/copy_frame05_300x250_x2.png" />
+            <img id="copy-frame01" class="full abs hidden" src="images/copy_frame01_300x250_x2.png" />
+            <img id="copy-frame02" class="full abs hidden" src="images/copy_frame02_300x250_x2.png" />
+            <img id="copy-frame03" class="full abs hidden" src="images/copy_frame03_300x250_x2.png" />
+            <img id="copy-frame04" class="full abs hidden" src="images/copy_frame04_300x250_x2.png" />
+            <img id="copy-frame05" class="full abs hidden" src="images/copy_frame05_300x250_x2.png" />
 
             <!-- cta btn -->
-            <img id="cta-copy" class="full abs hidden"  src="images/cta_copy_300x250_x2.png" />
-            <img id="cta-circle" class="full abs hidden"  src="images/cta_circle_300x250_x2.png" />
-            <img id="cta-arrow" class="full abs hidden"  src="images/cta_arrow_300x250_x2.png" />
+            <img id="cta-copy" class="full abs hidden" src="images/cta_copy_300x250_x2.png" />
+            <img id="cta-circle" class="full abs hidden" src="images/cta_circle_300x250_x2.png" />
+            <img id="cta-arrow" class="full abs hidden" src="images/cta_arrow_300x250_x2.png" />
 
         </a>
 
@@ -51,4 +53,5 @@
         startAd();
     </script>
 </body>
+
 </html>
